@@ -1,6 +1,8 @@
-Create a volume for storing data of the container
+Create a volume for storing data of the container and a network where the containers can communicate
 
 docker volume create soavolume
+
+docker network create soanet
 
 (
 
